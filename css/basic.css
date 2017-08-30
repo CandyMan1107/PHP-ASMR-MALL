@@ -1,0 +1,172 @@
+* {
+    @import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Hanna';
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 600px;
+    height: 50px;
+}
+
+.container {
+    vertical-align: middle;
+}
+
+.container .txt {
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    font-weight: bold;
+    width: 600px;
+    height: 50px;
+}
+
+#id_pw_input .txt {
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    font-weight: bold;
+    width: 600px;
+    height: 50px;
+}
+
+#id_pw_input .LogIn_Button .Submit_Button {
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    background-color: #006666;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 600px;
+    height: 50px;
+}
+
+.Start_Button {
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    background-color: #006666;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 600px;
+    height: 50px;
+}
+
+#join_form .SignIn_Button {
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+    background-color: #333300;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    width: 600px;
+    height: 50px;
+}
+
+#circle_id {
+    float: left;
+    margin-left: 190px;
+    margin-top: 200px;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    background-color: #959494;
+    opacity: 0.5;
+    font-weight: bold;
+    font-size: 45px;
+    color: #ffffff;
+    text-align:center;
+    border: 0;
+    outline: 0;
+    /*https://css-tricks.com/examples/ShapesOfCSS/*/
+    /*http://jaguarkim2108.blogspot.kr/2014/04/css_1454.html*/
+    /*width, height의 값의 1/2의 값이 border-radius의 값*/
+}
+
+#wrap_menu {
+    width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 600px;
+}
+
+#content {
+    margin-top: 150px;
+}
+
+#content_circle {
+    margin-top: 50px;
+}
+
+
+/*===================================*/
+
+#wrap {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 600px;
+}
+
+#header {
+    height: 62px;
+    margin-top: 16px;
+}
+
+#header .logo {
+    color: #fff;
+    /*font-family: 'BMDOHYEON_ttf';*/
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#logo {
+    float:left;
+    /*margin-left:35px;*/
+    /*margin-top:5px;*/
+}
+
+#top_login {
+    float: right;
+    margin-right: 20px;
+}
+
+#menu {
+    margin-top:45px;
+}
+
+.menus {
+    float: right;
+    margin-left: 120px;
+    font-size: 18px;
+}
+
+.clear {
+    clear:both;
+    /* float의 left, right 모두 제거된다. */
+}
+
+#content_menu {
+    overflow: hidden;
+    margin-top: 100px;
+    width: 998px;
+    min-height: 600px;
+}
+
